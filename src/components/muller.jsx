@@ -38,7 +38,9 @@ const Muller = ({ equation, x0, x1, x2, iterations }) => {
       x,
       relativeError,
     });
-    x0 = x;
+    x0 = x1;
+    x1 = x2;
+    x2 = x;
   }
 
   return (
