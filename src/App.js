@@ -140,12 +140,12 @@ function App() {
             </div>
           )}
           <button className="block mx-auto text-white bg-blue-500 px-6 py-2 rounded-lg hover:bg-blue-600 focus:bg-blue-600 transition">
-            Calculate
+            Solve
           </button>
         </form>
         {selectedMethod === "Newton Raphson" && (
           <p className="my-4 text-gray-500">
-            Formula : x = x<sub>0</sub> - f(x<sub>0</sub>) / f'(x<sub>0</sub>)
+            x = x<sub>0</sub> - f(x<sub>0</sub>) / f'(x<sub>0</sub>)
           </p>
         )}
         {selectedMethod === "Muller" && (
