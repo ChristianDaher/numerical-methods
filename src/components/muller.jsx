@@ -25,7 +25,7 @@ const Muller = ({ equation, x0, x1, x2, iterations }) => {
       const radical = Math.sqrt(b * b - 4 * a * c);
       const denominator = b < 0 ? b - radical : b + radical;
       const x = x2 - (2 * c) / denominator;
-      let relativeError = i > 0 ? Math.abs((x - x0) / x) * 100 : null;
+      let relativeError = i > 0 ? Math.abs((x - x2) / x) * 100 : null;
       results.push({
         iteration: i + 1,
         x0,
