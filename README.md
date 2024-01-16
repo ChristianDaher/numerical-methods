@@ -45,3 +45,9 @@ The application will start on [`localhost:3000`](http://localhost:3000).
 2. Select the numerical method you want to use.
 3. Click on the 'Solve' button.
 4. The result will be displayed on the screen.
+
+## Screenshots
+
+![Newton Raphon Method](./screenshots/Newton%20Raphon%20method.png)
+
+![Muller Method](./screenshots/Muller%20method.png)
